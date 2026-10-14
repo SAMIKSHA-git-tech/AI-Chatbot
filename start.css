@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: #102c35;
+    font-family: Arial, sans-serif;
+
+}
+h1{
+    color: rgb(84, 84, 205);
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(3, 22, 41)
+}
+.chat-container{
+    width: 400px;
+    height:  600px;
+    margin: 50px auto;
+    background-color: #a3fef0;
+    border-radius: 15px;
+    position : relative;
+    padding: 20px;
+
+
+}
+#sendBtn{
+    background-color: green;
+    color: black;
+    border: thin solid black; 
+    border-radius:5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.chat-box{
+    height: 450px;
+}
+button{
+    text-align: left;
+    margin-left: auto;
+}
+.input-area{
+    position:absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+
+    display: flex;
+    gap: 8px;
+}
+#plusBtn{
+    width: 40px;
+    font-size: 22px;
+}
+#userInput{
+    flex: 1;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.chat-box {
+    height: 450px;
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.chat-box p {
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-wrap: anywhere;
+}
+
+.chat-box p[style*="right"] {
+    background-color: #d3eaff;
+}
+
+.chat-box p[style*="left"] {
+    background-color: #ffffff;
+}
